@@ -13,8 +13,8 @@ def slug(name):
     name = re.sub(pattern, '', name)
     return name
 
-input_path = "/media/LACIE/Music/MP3 Player"
-output_path = "/media/LACIE/Music/mp3-organized"
+input_path = ""
+output_path = ""
 
 files = os.listdir(input_path)
 tag = eyeD3.Tag()
